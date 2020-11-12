@@ -13,7 +13,7 @@
 
 이러한 간선의 집합을 그래프의 **Matching**이라고 한다.
 
-![matching](/assets/images/algorithm/matching.png)  
+![matching](/images/matching.png)  
 
  
 ## 이분 매칭
@@ -22,14 +22,14 @@
 전형적인 예시로 N명의 사람들에게 N개의 작업을 배정할 때 각 사람이 할 수 있는 작업은 정해져 있다고 가정하자. 
 이는 이분 그래프로 두 집합 간의 대응 관계를 나타낼 수 있다.
 
-![bipartite_matching](/assets/images/algorithm/bipartite_matching.png)  
+![bipartite_matching](/images/bipartite_matching.png)  
 
 이분 매칭은 네트워크 플로우를 사용하여 해결할 수 있다. 
 왼쪽의 작업자들 그룹 A, 오른쪽의 작업을 그룹 B라고 했을 때, 
 A에 source를 추가하고, B에 sink를 추가하여 flow network를 만든다. 
 그리고 이 때 모든 간선의 용량은 1로 설정한다. 
 
-![bipartite_matching2](/assets/images/algorithm/bipartite_matching2.png)  
+![bipartite_matching2](/images/bipartite_matching2.png)  
 
 그리고 그래프의 최대 유량을 구한다. 
 최대 유량을 구했을 때 유량이 발생하는 간선들을 모으면 그것이 최대 매칭이 된다.  
