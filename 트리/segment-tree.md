@@ -12,7 +12,7 @@
 그 왼쪽 오른쪽 자식은 왼쪽 절반 구간 오른쪽 절반 구간을 의미한다. 
 그리고 구간의 길이가 1인 노드들은 트리의 리프 노드가 된다.  
 
-![segment_tree]/images/segment_tree.png) 
+![segment_tree](/images/segment_tree.png) 
 
 세그먼트 트리의 각 노드는 해당 구간에 대한 결과 값을 저장하고 있다. 
 예를 들어 구간의 최소 값을 구하기 위해서는 각 노드는 해당 구간의 최소 값을 저장하고 있다. 
@@ -27,7 +27,7 @@ full binary tree 모양처럼 보이기에 이는 1차원 배열로 표현할 �
 위 경우 길이 15를 표현하는데 29개의 노드가 필요하다. 
 대충 2n으로 커버 가능할 것 같지만 아니다. 
 
-![segment_tree2]/images/segment_tree2.png) 
+![segment_tree2](/images/segment_tree2.png) 
 
 위와 같이 완전한 full binary tree가 아니기 때문에 적절한 크기는 배열의 길이 
 n을 가까운 2의 거듭 제곱 꼴로 올리고 2를 곱한 값, 만약 위 예시처럼 n=6이라면 8로 올리고 2를 곱한 16이 적절한 크기다. 
@@ -129,13 +129,13 @@ public:
 
 > 펜윅 트리에서는 계산의 편의상 0번이 아닌 1번 인덱스부터 시작하도록 구성한다.
 
-![fenwick_tree]/images/fenwick_tree.png) 
+![fenwick_tree](/images/fenwick_tree.png) 
 
 하지만 회색으로 표기된 부분을 잘 생각해보면 부분합을 구하는데 있어 불필요한 요소라는 것을 추론할 수 있다. 
 예제에서 [9, 16] 구간을 예로들면, [1, 16] 구간의 합을 구할 때는 루트를 바로 사용하면 되고, 다른 위치의 합을 구할 때도 이 값은 사용할 수 없다. 
 그래서 실제 구성하는 트리의 모양은 아래와 같이 된다.
 
-![fenwick_tree2]/images/fenwick_tree2.png) 
+![fenwick_tree2](/images/fenwick_tree2.png) 
 
 이 때 트리 노드의 수는 정확히 n개가 되므로 배열 A의 부분합을 구하기 위해서는 같은 크기의 배열이 존재하면 된다. 
 그리고 트리는 아래와 같이 정의된다.

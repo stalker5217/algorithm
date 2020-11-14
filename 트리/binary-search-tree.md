@@ -5,7 +5,7 @@
 
 > 이진 트리는 각 노드가 왼쪽과 오른쪽, 최대 두 개의 자식 노드만을 가질 수 있는 트리를 의미한다.  
 
-![basic_binary_tree]/images/basic_binary_tree.png)
+![basic_binary_tree](/images/basic_binary_tree.png)
 
 
 **순회**  

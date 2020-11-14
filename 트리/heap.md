@@ -18,7 +18,7 @@ binary search tree를 사용하여 정렬된 상태로 구성하면 삽입과 �
 
 <br/>
 
-![heap]/images/heap.png)  
+![heap](/images/heap.png)  
 
 
 ## 힙의 구현  
@@ -28,7 +28,7 @@ binary search tree를 사용하여 정렬된 상태로 구성하면 삽입과 �
 
 아래와 같이 힙은 1차원 배열 형태로 구현할 수 있다.
 
-![heap_array]/images/heap_array.png)  
+![heap_array](/images/heap_array.png)  
 
 - i번 노드의 왼쪽 자식은 2 * i + 1
 - i번 노드의 오른쪽 자식은 2 * i + 2
@@ -40,7 +40,7 @@ binary search tree를 사용하여 정렬된 상태로 구성하면 삽입과 �
 그리고 새 원소를 부모 노드와 비교하고, 부모 노드가 더 작다면 위치를 교환, 
 부모가 더 작거나 루트에 도달한다면 삽입이 완료된다.
 
-![heap_insert]/images/heap_insert.png)  
+![heap_insert](/images/heap_insert.png)  
 
 ``` cpp
 void push_heap(vector<int> & heap, int newValue){
@@ -62,7 +62,7 @@ void push_heap(vector<int> & heap, int newValue){
 두 자식 노드 중 더 큰 값을 가지는 노드를 다시 올리고, 
 이를 두 자식 모두 값이 작거나 또는 바닥까지 도달하거나 하면 삭제가 완료된다.
 
-![heap_pop]/images/heap_pop.png)  
+![heap_pop](/images/heap_pop.png)  
 
 ``` cpp
 void pop_heap(vector<int> & heap){

@@ -3,7 +3,7 @@
 데이터를 표현할 때 선형만으로는 표현하기 어려운 구조도 많다.  
 대표적으로 계층 구조가 있는데, 이 계층 구조를 표현하기 위한 자료구조가 **트리(Tree)**이다.  
 
-![basic_binary_tree]/images/basic_binary_tree.png)
+![basic_binary_tree](/images/basic_binary_tree.png)
 
 <br/>
 
@@ -75,7 +75,7 @@ typedef struct __TreeNode{
 
 이진 트리의 순회에서는 루트 노드를 **언제** 방문하는지에 따라 세 가지로 나눠진다.
 
-![basic_binary_tree]/images/basic_binary_tree.png)
+![basic_binary_tree](/images/basic_binary_tree.png)
 
 1. **PreOrder(전위 순회)** : '루트 노드 > 좌측 트리 > 우측 트리' 순으로 방문
 	
