@@ -19,8 +19,7 @@ using namespace std;
 
 void permutation(vector<int> & arr, const int curPos){
 	if(curPos == arr.size()){
-		for(int el : arr)
- cout << el << " ";
+		for(int el : arr) cout << el << " ";
 		cout << "\n";
 		return;
 	}
